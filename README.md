@@ -12,8 +12,8 @@ A payment gateway for donations integrated into the website as a button
 * Multiple payment methods including international cards
 
 ### Control
-*Can be edited on any code editor
-*Runs on almost any latest browser
+* Can be edited on any code editor
+* Runs on almost any latest browser
 
 #### Usage
 To know more about the trust, use the buttons on the header at the top of the page or simply scroll down. To make a donation, press either of the donate buttons
