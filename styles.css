@@ -1,0 +1,316 @@
+* {
+  scroll-behavior: smooth;
+}
+
+div {
+  z-index: 500;
+}
+
+.donate-button {
+  display: inline-block;
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 25px;
+  background-color: #ca780d;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 830px;
+  margin-bottom: 80px;
+  transition: all 0.15s;
+}
+
+.donate-button:hover {
+  display: inline-block;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.home {
+  margin-top: 70px;
+  height: 790px;
+  width: 1530px;
+  background-image: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_655998316_2000149920009280219_363765.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slogan {
+  display: inline-block;
+  margin-top: 250px;
+  font-family: raleway;
+  font-size: 70px;
+  font-weight: 600;
+  color: whitesmoke;
+  margin-bottom: none;
+  padding-bottom: 0px;
+  height: 0px;
+  margin-left: 820px;
+}
+
+p {
+  margin: 0px;
+}
+
+.about-us {
+  height: 500px;
+  width: 1535px;
+  background-color: rgb(227, 222, 222);
+}
+
+.about-us-text {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  background-color: black;
+  color: white;
+  margin-left: 150px;
+  font-family: raleway;
+  font-size: 20px;
+  margin-top: 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.about-us-title {
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  margin-top: 50px;
+  margin-left: 140px;
+  color: black;
+  background-color: rgb(247, 219, 7);
+  height: 30px;
+  width: 300px;
+  font-family: raleway;
+  padding-top: 5px;
+  box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  text-align: left;
+  font-size: 20px;
+  z-index: 200;
+}
+
+.hand-image {
+  position: relative;
+  left: 545px;
+  bottom: 230px;
+  margin-top: 0;
+  height: 80px;
+}
+
+.donate-title {
+  display: inline-block;
+  position: relative;
+  bottom: 190px;
+  left: 410px;
+  background-color: rgb(247, 219, 7);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: raleway;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.donate-text {
+  display: inline-block;
+  position: absolute;
+  width: 150px;
+  left: 975px;
+  top: 1010px;
+  font-family: raleway;
+  background-color: rgba(169, 168, 168, 0.948);
+  z-index: 1;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.project-title {
+  text-align: center;
+  background-color: rgb(217, 81, 27);
+  font-family: kelly slab;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 50px;
+}
+
+.project-info {
+  font-family: raleway;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  justify-content: center;
+}
+
+.project-details {
+  background-color: rgb(227, 222, 222);
+  height: 1211px;
+  width: 1535px;
+}
+
+.ignite {
+  width: 800px;
+  height: 500px;
+  margin-left: 350px;
+  margin-top: 200px;
+  margin-bottom: 150px;
+  transition: 0.1s;
+}
+
+.ignite:hover {
+  width: 900px;
+  height: 600px;
+}
+
+.contact-info {
+  background-color: rgb(37, 206, 133);
+  height: 300px;
+}
+
+.adress-title {
+  display: inline-block;
+  font-family: lilita one;
+  margin-left: 300px;
+  margin-top: 50px;
+  font-weight: 600;
+  color: white;
+  font-size: 30px;
+}
+
+.adress-type {
+  margin-top: 10px;
+  margin-left: 300px;
+  font-size: 16px;
+  font-family: roboto;
+  font-weight: 700;
+}
+.adress {
+  font-family: roboto;
+  margin-top: 5px;
+  margin-left: 310px;
+}
+
+.note {
+  font-size: 15px;
+  font-family: roboto;
+  font-weight: 500;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+.header {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: rgb(222, 222, 222);
+  z-index: 1000;
+}
+
+.left-section {
+  margin-right: 50px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.logo {
+  margin-left: 50px;
+  margin-right: 650px;
+  height: 70px;
+  object-fit: fill;
+}
+
+.home-button {
+  font: lilita one;
+  height: 70px;
+  background: transparent;
+  width: 120px;
+  font-size: 15px;
+  margin-right: 0;
+}
+
+.home-button:hover {
+  background-color: rgb(234, 228, 228);
+}
+
+.about-button {
+  font: lilita one;
+  height: 70px;
+  background: transparent;
+  width: 120px;
+  font-size: 15px;
+}
+
+.about-button:hover {
+  background-color: rgb(234, 228, 228);
+}
+
+.ignite-button {
+  font: lilita one;
+  height: 70px;
+  background: transparent;
+  width: 120px;
+  font-size: 15px;
+}
+
+.ignite-button:hover {
+  background-color: rgb(234, 228, 228);
+}
+
+.contact-button {
+  font: lilita one;
+  height: 70px;
+  background: transparent;
+  width: 120px;
+  font-size: 15px;
+}
+
+.contact-button:hover {
+  background-color: rgb(234, 228, 228);
+}
+
+.donate-now-button {
+  font: lilita one;
+  height: 70px;
+  background: transparent;
+  width: 120px;
+  font-size: 15px;
+  color: gold;
+}
+
+.donate-now-button:hover {
+  background-color: rgb(236, 214, 88);
+  color: white;
+}
