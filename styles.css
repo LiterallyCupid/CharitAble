@@ -314,3 +314,9 @@ button {
   background-color: rgb(236, 214, 88);
   color: white;
 }
+
+.auth {
+  font-family: Darumadrop One;
+  background-color: rgb(37, 206, 133);
+  color: whitesmoke;
+}
